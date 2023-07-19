@@ -1,0 +1,135 @@
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 5px;
+    width:100vh;
+    margin-top:15vh;
+    margin-bottom: 30px;
+    box-shadow:4px 5px 12px 3px rgba(0, 0, 0,0.4); 
+    background-color: 	rgba(191, 191, 191, 0);
+}
+
+.count{
+    border:2px solid rgba(78, 76, 76, 0.884);
+    border-radius: 20px;
+}
+
+.cart .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid  rgb(174, 172, 172);;
+    border-radius: 1px;
+}
+
+.cart .card img {
+    width: 120px;
+    height: 120px;
+}
+
+.increaseButton{
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(49, 48, 48);
+    color: red;
+    padding: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.decreaseButton{
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(49, 48, 48);
+    color: greenyellow;
+    padding: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ .title{
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style:normal;
+    margin-left: 20px;
+}
+
+.description{
+    font-weight:400;
+    width: 200px;
+    font-size: 14px;
+    font-style: oblique;
+    margin-left: 20px;
+   
+}
+.price{
+font-weight: 500;
+color: red;
+
+}
+.removeButton{
+    border: none;
+    background-color: rgb(49, 48, 48);
+    color:white;
+    border-radius: 20px;
+    padding:5px 10px;
+    font-size:15px;
+    cursor: pointer;
+}
+
+
+.cart .card .quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart .card .quantity p {
+    width: 50px;
+    text-align: center;
+}
+
+.cart .card .quantity button {
+    width: 50px;
+}
+
+.cart .total {
+    display: flex;
+    height:40px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 15px;
+}
+
+.emptyPara{
+    background-color: rgb(127,127,127);
+    color:white;
+    font-weight:400;
+    box-shadow:4px 5px 12px 3px rgba(0, 0, 0,0.4); 
+    border-radius: 10px;
+    padding: 20px;
+    font-size:35px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.closeCartButton{
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border:1px solid rgba(80, 78, 78, 0.623);
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+}
